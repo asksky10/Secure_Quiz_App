@@ -1,0 +1,154 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <android.support.v4.view.ViewPager
+
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333" >
+
+
+        <android.support.v4.view.PagerTabStrip
+
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:paddingTop="4dp"
+        android:paddingBottom="1dp"
+        android:id="@+id/title"
+        style="@style/pagerTabStrip"
+        android:layout_gravity="top"
+        android:background="#FFFFFF" >
+
+
+        </android.support.v4.view.PagerTabStrip>
+
+    </android.support.v4.view.ViewPager>
+
+
+    <ScrollView
+        android:id="@+id/ScrollView02"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="#333333"
+        android:fillViewport="true"
+        android:layout_gravity="left">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Instructions"
+            android:orientation="vertical"
+            android:background="#333333"
+            android:padding="10dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="INSTRUCTIONS"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="30sp"/>
+
+                 <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="1). "
+                         android:textSize="21sp"
+                         android:textColor="#FFFFFF"
+                         android:layout_marginBottom="10dp"
+                         android:layout_marginTop="10dp"/>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="To provide attendance: enter Course code, Username , password , symbol password, attendance URL, then press “Submit attendance”."
+                        android:textStyle="italic"
+                        android:textSize="21sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2). "
+                        android:textSize="21sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="To attempt quiz: enter Course code, Username , password , symbol password, quiz URL, then press “Attempt quiz”."
+                        android:textStyle="italic"
+                        android:textSize="21sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3). "
+                        android:textSize="21sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="If you exit the app before submitting the quiz answers, you forfeit the quiz."
+                        android:textStyle="italic"
+                        android:textSize="21sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALL THE BEST!"
+                android:textSize="25sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.v4.widget.DrawerLayout>
+<!-- From: file:/D:/Education/Android/bhokali/SecureE-exam/app/src/main/res/layout/activity_main.xml -->
